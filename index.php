@@ -1,6 +1,6 @@
 <?php
 	include 'module/header.php';
-	include 'module/archive-block.php';
+	include 'module/infographic-global.php';
 	include 'module/featured-project.php';
 ?>
 	<div class="container">
@@ -9,7 +9,7 @@
 			<ul id="new-projects" class="thumbnails">
 				<?php
 					$i = 0;
-					while ( $i <= 1) {
+					while ( $i <= 3) {
 						include 'module/content-project.php';
 						$i ++;
 					}

@@ -1,7 +1,7 @@
 <!-- header -->
 <?php include 'module/header.php'; ?>
 
-	<?php include 'module/archive-block.php'; ?>
+	<?php include 'module/infographic-global.php'; ?>
 	
 	<!-- middle content -->
 	<div class="container">

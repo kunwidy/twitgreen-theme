@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<div id="big-content" class="span9">
-				<h2>DAFTAR LOT :</h2>
+				<h2>DAFTAR LOT DRAFT :</h2>
 				<ul id="new-projects" class="thumbnails">
 					<?php
 						$i = 0;
