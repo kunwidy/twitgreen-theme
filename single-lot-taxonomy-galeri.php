@@ -1,7 +1,7 @@
 <!-- header -->
-<?php include 'header.php'; ?>
+<?php include 'module/header.php'; ?>
 
-	<?php include 'archive-block.php'; ?>
+	<?php include 'module/archive-block.php'; ?>
 	
 	<!-- middle content -->
 	<div class="container">
@@ -45,7 +45,7 @@
 								<p>lihat : <a href="single-lot.php"><button class="btn  btn-success" type="button"><i class="icon-book"></i> semua</button></a>  <a href="single-lot-taxonomy-catatan.php"><button class="btn btn-success" type="button"><i class="icon-edit"></i> Catatan</button></a>  <a href="single-lot-taxonomi-galeri.php"><button class="btn  active btn-success" type="button"><i class="icon-picture"></i> Galeri</button></a></p>
 							</div>
 							
-							<?php include 'cerita-galeri.php'; ?>
+							<?php include 'module/cerita-galeri.php'; ?>
 								
 							
 						</div>
@@ -56,7 +56,7 @@
 				
 				<!-- sidebar content -->
 				<div id="sidebar" class="span3">
-					<?php include 'side-info-lot.php'; ?>
+					<?php include 'module/side-info-lot.php'; ?>
 					
 				</div>
 				<!-- sidebar content -->
@@ -64,7 +64,7 @@
 	</div>
 	
 		<!-- if on mobile -->
-	<?php include 'search-mobile.php'; ?>
+	<?php include 'module/search-mobile.php'; ?>
 	
 <!-- footer -->
-<?php include 'footer.php'; ?>
+<?php include 'module/footer.php'; ?>

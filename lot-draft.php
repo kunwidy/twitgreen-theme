@@ -1,7 +1,7 @@
 <!-- header -->
-<?php include 'header.php'; ?>
+<?php include 'module/header.php'; ?>
 
-	<?php include 'archive-block.php'; ?>
+	<?php include 'module/archive-block.php'; ?>
 	
 	<!-- middle content -->
 	<div class="container">
@@ -10,12 +10,12 @@
 				<!-- big content -->
 				<div id="big-content" class="span9">
 					
-					<?php include 'archive-block-perproject.php'; ?>
+					<?php include 'module/archive-block-perproject.php'; ?>
 					
 					<h2>DAFTAR LOT DRAFT :</h2>
-					<?php include 'archive-lot2.php'; ?>
+					<?php include 'module/archive-lot2.php'; ?>
 					
-					<?php include 'pagination.php'; ?>
+					<?php include 'module/pagination.php'; ?>
 					
 					
 				</div>
@@ -43,10 +43,10 @@
 					</div>
 					<!-- /other project -->
 					
-					<?php include 'featured-relawan.php'; ?>
+					<?php include 'module/featured-relawan.php'; ?>
 					<div class="clearfix"></div><br/>
 					
-					<?php include 'side-search-by-stats.php'; ?>
+					<?php include 'module/side-search-by-stats.php'; ?>
 					
 				</div>
 				<!-- sidebar content -->
@@ -54,7 +54,7 @@
 	</div>
 	
 		<!-- if on mobile -->
-	<?php include 'search-mobile.php'; ?>
+	<?php include 'module/search-mobile.php'; ?>
 	
 <!-- footer -->
-<?php include 'footer.php'; ?>
+<?php include 'module/footer.php'; ?>

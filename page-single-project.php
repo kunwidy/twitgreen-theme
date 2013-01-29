@@ -1,7 +1,7 @@
 <!-- header -->
-<?php include 'header.php'; ?>
+<?php include 'module/header.php'; ?>
 
-	<?php include 'archive-block.php'; ?>
+	<?php include 'module/archive-block.php'; ?>
 	
 	<!-- middle content -->
 	<div class="container">
@@ -10,14 +10,14 @@
 				<!-- big content -->
 				<div id="big-content" class="span9">
 					
-					<?php include 'archive-block-perproject.php'; ?>
+					<?php include 'module/archive-block-perproject.php'; ?>
 					
 					<div id="">
 							<p>
 							PT. Pertamina (Persero) bercita-cita menanam dan merawat 100 juta pohon di seluruh Indonesia hingga tahun 2015. Program ini salah satu upaya yang dilakukan oleh PT Pertamina (Persero) untuk ikut andil dalam  mengurangi dampak efek rumah kaca akibat emisi gas karbon.  Program ini diharapkan juga dapat meningkatkan kesejahteraan masyarakat di kawasan tabung pohon, melalui pemanfaatan hasil pohon yang berkelanjutan. Program Menabung 100 Juta Pohon ini sudah terealisasi sejak awal tahun 2012 dengan penanaman sekitar 4 juta pohon. Program ini dilakukan oleh PT. Pertamina tidak hanya sekedar menanam pohon, tetapi juga memonitor perkembangan pohon-pohon tersebut sesuai dengan lingkungannya.</p>
 					</div>
 					
-					<?php include 'archive-lot.php'; ?>
+					<?php include 'module/archive-lot.php'; ?>
 					
 					
 				</div>
@@ -45,10 +45,10 @@
 					</div>
 					<!-- /other project -->
 					
-					<?php include 'featured-relawan.php'; ?>
+					<?php include 'module/featured-relawan.php'; ?>
 					<div class="clearfix"></div><br/>
 					
-					<?php include 'side-search-by-stats.php'; ?>
+					<?php include 'module/side-search-by-stats.php'; ?>
 					
 				</div>
 				<!-- sidebar content -->
@@ -56,7 +56,7 @@
 	</div>
 	
 		<!-- if on mobile -->
-	<?php include 'search-mobile.php'; ?>
+	<?php include 'module/search-mobile.php'; ?>
 	
 <!-- footer -->
-<?php include 'footer.php'; ?>
+<?php include 'module/footer.php'; ?>

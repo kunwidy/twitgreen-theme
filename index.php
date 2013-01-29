@@ -1,7 +1,7 @@
 <!-- header -->
-<?php include 'header.php'; ?>
+<?php include 'module/header.php'; ?>
 
-	<?php include 'archive-block.php'; ?>
+	<?php include 'module/archive-block.php'; ?>
 	
 	 <!-- featured project -->
 	<div class="container">
@@ -45,7 +45,7 @@
 				<div class="span12">
 					
 					<!-- New Project -->
-					<?php include 'archive-newproject.php'; ?>
+					<?php include 'module/archive-newproject.php'; ?>
 					<!-- New Project -->
 					
 				</div>
@@ -91,7 +91,7 @@
 	</div>
 	
 	<!-- if on mobile -->
-	<?php include 'search-mobile.php'; ?>
+	<?php include 'module/search-mobile.php'; ?>
 	
 <!-- footer -->
-<?php include 'footer.php'; ?>
+<?php include 'module/footer.php'; ?>
