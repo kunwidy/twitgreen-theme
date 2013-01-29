@@ -1,0 +1,269 @@
+/* typography come first
+---------------------------------------------------------------
+*/
+
+
+@import url(~"http://fonts.googleapis.com/css?family=PT+Serif:400,400italic");
+body{	font: 16px/24px 'PT Serif', Georgia, serif;color:#333;background:#EEE;font-family:'PT Serif', Georgia, serif; }
+
+
+.larger, h1 {
+	font-size: 2.61em;
+	line-height: 1.14em;
+	letter-spacing: -.04em;
+	font-weight:400;
+}
+.large, h2 {
+	font-size: 1.93em;
+	line-height: 1.28em;
+	font-weight:400;
+}
+.bigger, h3 {
+	font-size: 1.61em;
+	line-height: 1.25em;
+	font-weight:400;
+}
+
+.big, h4 {
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+.normal {
+	font-size: 1em;
+	font-weight:normal;
+	line-height: 1.5em;
+}
+.small, small {
+	font-size: .76em;
+	margin-bottom:2.04em;
+}
+
+p{
+	margin-bottom:1.5em;
+}
+p+p{
+	text-indent:2em;
+	margin-top:-1.5em;
+}
+
+li ul,
+li ol       { margin: 0; }
+ul, ol      { margin: 0 1.5em 1.5em 0; padding-left: 1.5em; }
+
+ul          { list-style-type: disc; }
+ol          { list-style-type: decimal; }
+
+
+/* some grid goes here
+---------------------------------------------------------------
+*/
+
+//
+// Configuration
+//
+
+@font-size: 16; 		// Your base font-size in pixels
+@em: @font-size*1em;	// Shorthand for outputting ems, e.g. "12/@em"
+
+@column: 65;	// The column-width of your grid in pixels
+@gutter: 20;	// The gutter-width of your grid in pixels
+
+//
+// Column-widths in variables, in ems
+//
+
+ @1cols: ( 1 * (@column + @gutter) - @gutter) / @em; @1col: @1cols;
+ @2cols: ( 2 * (@column + @gutter) - @gutter) / @em;
+ @3cols: ( 3 * (@column + @gutter) - @gutter) / @em;
+ @4cols: ( 4 * (@column + @gutter) - @gutter) / @em;
+ @5cols: ( 5 * (@column + @gutter) - @gutter) / @em;
+ @6cols: ( 6 * (@column + @gutter) - @gutter) / @em;
+ @7cols: ( 7 * (@column + @gutter) - @gutter) / @em;
+ @8cols: ( 8 * (@column + @gutter) - @gutter) / @em;
+ @9cols: ( 9 * (@column + @gutter) - @gutter) / @em;
+@10cols: (10 * (@column + @gutter) - @gutter) / @em;
+@11cols: (11 * (@column + @gutter) - @gutter) / @em;
+@12cols: (12 * (@column + @gutter) - @gutter) / @em;
+@13cols: (13 * (@column + @gutter) - @gutter) / @em;
+@14cols: (14 * (@column + @gutter) - @gutter) / @em;
+@15cols: (15 * (@column + @gutter) - @gutter) / @em;
+@16cols: (16 * (@column + @gutter) - @gutter) / @em;
+
+ @1sets: ( 1 * (@column + @gutter)) / @em; @1set: @1sets;
+ @2sets: ( 2 * (@column + @gutter)) / @em;
+ @3sets: ( 3 * (@column + @gutter)) / @em;
+ @4sets: ( 4 * (@column + @gutter)) / @em;
+ @5sets: ( 5 * (@column + @gutter)) / @em;
+ @6sets: ( 6 * (@column + @gutter)) / @em;
+ @7sets: ( 7 * (@column + @gutter)) / @em;
+ @8sets: ( 8 * (@column + @gutter)) / @em;
+ @9sets: ( 9 * (@column + @gutter)) / @em;
+@10sets: (10 * (@column + @gutter)) / @em;
+@11sets: (11 * (@column + @gutter)) / @em;
+@12sets: (12 * (@column + @gutter)) / @em;
+@13sets: (13 * (@column + @gutter)) / @em;
+@14sets: (14 * (@column + @gutter)) / @em;
+@15sets: (15 * (@column + @gutter)) / @em;
+@16sets: (16 * (@column + @gutter)) / @em;
+
+
+//
+// Column-widths in a function, in ems
+//
+
+.width (@cols:1) {
+	width: (@cols * (@column + @gutter) - @gutter) / @em;
+}
+.column{
+	float:left;
+	margin-right:@gutter/@em;
+	}
+.column-last{
+	float:left;
+	margin-right: 0;
+	}
+
+
+/* container-fluid 
+---------------------------------------------------------------
+*/
+.container-fluid{
+	width:95%;
+	margin: 0 auto;
+}
+/* form
+---------------------------------------------------------------
+*/
+
+.form button,
+.form .button,
+.form input[type="button"],
+.form input[type="submit"]
+{
+font-family: inherit;
+background-color:#333;
+color:#FFF;
+border:0;
+	}
+
+.form .control-group, .form p{
+	margin-bottom:1.1em;
+	clear:both;
+	margin-top:0;
+	text-indent:0;
+	}
+.vertical-form .control-group{
+	margin-bottom: 10px;
+}
+.vertical-form .control-group.last{
+	margin-bottom: 0;
+}
+.form > .control-group:last-child, .form > p:last-child{
+	margin-bottom:0;
+	}
+.form .control-group label, .form p label{
+	display:block;
+	margin-bottom:0;
+	}
+.form.vertical-form .control-group label{
+	display:block;
+	width:auto;
+	margin:0;
+	float:none;
+}
+.form.vertical-form .control-helper{
+	margin:0;
+}
+
+.form .control-group input[type="text"],
+.form .control-group input[type="password"],
+.form .control-group input[type="file"],
+.form .control-group textarea,
+.form .control-group select,
+.form p input[type="text"],
+.form p input[type="password"],
+.form p input[type="file"],
+.form p textarea,
+.form p select{
+	font:inherit;
+	width:99%;
+	}
+
+.form .control-group textarea,
+.form p textarea{
+	height:11.1em;
+	/*margin-bottom:1.1em;*/
+	}
+.form .control-group .short,
+.form p textarea .short{
+	height:3.6em;
+	}
+
+.form .control-helper{
+	.small;
+	}
+
+
+@media only screen and (min-width: 480px) {
+  /* Style adjustments for viewports 480px and over go here */
+.form .control-group label,
+.form p label{
+	display:inline;
+	width:@2cols;
+	margin-right:20px;
+	float:left;
+	margin-bottom:1.5em;
+	}
+
+.form .control-group input[type="text"],
+.form .control-group input[type="password"],
+.form .control-group input[type="file"],
+.form .control-group textarea,
+.form .control-group select,
+.form p input[type="text"],
+.form p input[type="password"],
+.form p input[type="file"],
+.form p textarea,
+.form p select{
+	width: @3cols - 0.5;
+	margin-top:-2px;
+	}
+
+
+
+.form .control-group input[type="text"].long,
+.form .control-group input[type="password"].long,
+.form p input[type="text"].long,
+.form p input[type="password"].long,
+.form .control-group textarea,
+.form p textarea{
+	width: @6cols - 0.5;
+	max-width:99%;
+	}
+
+.form.vertical-form .control-group textarea,
+.form.vertical-form .control-group input.long{
+	width:99%;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* Style adjustments for viewports 768px and over go here */
+/*.form .control-group label, .form p label{
+	}*/
+
+/*.form .control-group input[type="text"].long,
+.form .control-group input[type="password"].long,
+.form p input[type="text"].long,
+.form p input[type="password"].long{
+	width: @6cols - 0.5;
+	}*/
+
+
+}
+
+
+/* inline form 
+---------------------------------------------------------------
+*/
