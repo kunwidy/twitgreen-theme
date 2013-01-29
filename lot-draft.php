@@ -13,7 +13,28 @@
 					<?php include 'module/archive-block-perproject.php'; ?>
 					
 					<h2>DAFTAR LOT DRAFT :</h2>
-					<?php include 'module/archive-lot2.php'; ?>
+
+
+				<!--daftar lots-->
+				<div class="">
+					<ul id="new-projects" class="thumbnails">
+						<!--tampilan untuk lot-->
+
+						<?php
+							$i = 0;
+							while ( $i <= 8) {
+								include 'module/content-lot.php';
+								$i ++;
+							}
+						?>
+						
+						<!--/tampilan untuk lot-->
+					</ul>
+						
+				</div>
+				<!--/daftar lot-->
+				<br/><hr/>
+
 					
 					<?php include 'module/pagination.php'; ?>
 					
@@ -24,29 +45,15 @@
 				<!-- sidebar content -->
 				<div id="sidebar" class="span3">
 					
-					<!-- sponsor -->
-					<div class="sponsor-banner center side-content">
-						<h4 id="sidebar-title">Sponsor</h4>
-						<a href="lot-sponsorship.php"><img src="upload/banner-sponsor.jpg" alt="#"></a>
-					</div>
-					<!-- /sponsor -->
+					<?php include 'module/widget-sponsor-banner.php'; ?>
+
+					<?php include 'module/widget-list-project.php'; ?>
 					
-					<!-- other project -->
-					<div id="list-project" class="side-content">
-						<h4 id="sidebar-title">Project terkait</h4>
-						<ul id="data-lot">
-							<li><a class="active" href="#">Menabung 100 juta pohon pertamina sobat bumi</a></li>
-							<li><a href="#">Bojongsoan Green movement 2013</a></li>
-							<li><a href="#">Nusantara Hijau</a></li>
-							<li><a href="#">Gerakan 1 rumah 1 pohon</a></li>
-						</ul>
-					</div>
-					<!-- /other project -->
+					<?php include 'module/widget-featured-relawan.php'; ?>
+
+					<?php include 'module/widget-filter-by-status.php'; ?>
 					
-					<?php include 'module/featured-relawan.php'; ?>
-					<div class="clearfix"></div><br/>
-					
-					<?php include 'module/side-search-by-stats.php'; ?>
+					<?php // include 'module/side-search-by-stats.php'; ?>
 					
 				</div>
 				<!-- sidebar content -->

@@ -1,55 +1,21 @@
-<!-- header -->
-<?php include 'module/header.php'; ?>
-
-	<?php include 'module/archive-block.php'; ?>
-	
-	 <!-- featured project -->
+<?php
+	include 'module/header.php';
+	include 'module/archive-block.php';
+	include 'module/featured-project.php';
+?>
 	<div class="container">
-		<div id="featured-project">
-			<div class="row">
-				<div class="span12">
-					<div class="row">
-						<div class="span6">
-							<div id="img-featured">
-								<a href="#"><img src="upload/featured-project2.jpg" alt="twitgreen"></a>
-							</div>
-						</div>
-						<div class="span6">
-							<div id="text-featured">
-							<h1 class="large">
-								<a href="page-single-project.php">Menabung 100.000.000 Pohon Pertamina Sobat Bumi</a>
-							</h1>
-							<p class="big">
-								PT. Pertamina (Persero) bercita-cita menanam dan merawat 100 juta pohon di seluruh Indonesia hingga tahun 2015.
-								Program ini salah satu upaya yang dilakukan oleh PT Pertamina (Persero)  [...]
-							</p>
-							</div>
-							<div class="total">
-								<p class="big">
-									Saat ini sudah Menabung <a href="#">26.000.000</a> Pohon
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /featured project -->
-	
-	
-	<!-- middle content -->
-	<div class="container">
-		<div id="new-project">
-			<div class="row">
-				<div class="span12">
-					
-					<!-- New Project -->
-					<?php include 'module/archive-newproject.php'; ?>
-					<!-- edit here New Project -->
-					
-				</div>
-			</div>
+		<div class="new-project">
+			<h5>PROJECT :</h5>
+			<ul id="new-projects" class="thumbnails">
+				<?php
+					$i = 0;
+					while ( $i <= 1) {
+						include 'module/content-project.php';
+						$i ++;
+					}
+				?>
+			</ul>
+			<button class="btn btn-success right" type="button">Lihat semua project</button>
 		</div>
 	</div>
 	
@@ -89,9 +55,7 @@
 			</div>
 		</div>
 	</div>
-	
-	<!-- if on mobile -->
-	<?php include 'module/search-mobile.php'; ?>
-	
-<!-- footer -->
-<?php include 'module/footer.php'; ?>
+<?php
+	include 'module/search-mobile.php';
+	include 'module/footer.php';
+?>
