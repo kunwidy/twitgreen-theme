@@ -50,7 +50,7 @@
 											</a>
 											<div class="media-body">
 												<h4 class="media-heading">Lot Baru</h4>
-												<p> <a href="#" class="pull-left"><img class="gal" src="upload/new-project.jpg"></a>Hari Krismis Tiyanto menambahkan foto baru ke lot desa cinunuk1 pada tanggal 28 January 2013 21:28 WIB</p>
+												<p> <a href="#" class="pull-left"><img class="gal" src="upload/new-project.jpg"> </a>Hari Krismis Tiyanto menambahkan foto baru ke lot desa cinunuk1 pada tanggal 28 January 2013 21:28 WIB</p>
 												<a href="#"><span class="label label-success right">Lihat semua</span></a>
 											</div>
 										</div>
