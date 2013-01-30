@@ -100,7 +100,7 @@ Note: 'Nb cols' parameter for Bootstrap only.
 							<button type="button" class="btn btn-primary"><i class="icon-user"></i> User</button>
 						</div>
 					</div>
-					<div class="span6">
+					<div class="span6 hidden-phone">
 						<form id="" class="form-search pull-right">
 							<div class="input-append">
 								<input type="text" class="span2 search-query">
