@@ -23,6 +23,11 @@
 			<div class="span3">
 				<?php include 'module/user-info.php'; ?>
 			</div>
+			<!-- sidebar widget -->
+				<div id="sidebar" class="span3">
+					<?php include 'module/widget-filter-by-status.php';?>
+				</div>
+			<!-- /sidebar widget -->
 		</div>
 	</div>
 	
