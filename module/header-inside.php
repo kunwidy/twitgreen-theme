@@ -36,7 +36,7 @@ Note: 'Nb cols' parameter for Bootstrap only.
 -->
 	
 	<!-- header -->
-	<div id="header-out">
+	<div id="header-in">
 		<div class="container">
 			<div id="top-panes">
 				<div class="row hidden-phone">
@@ -57,12 +57,11 @@ Note: 'Nb cols' parameter for Bootstrap only.
 					</div>
 				
 					<div class="span6">
-						<form id="cari" class="form-search pull-right">
-							<div class="input-append">
-								<input type="text" class="span2 search-query">
-								<button type="submit" class="btn"><i class="icon-search"></i></button>
+						<div class="pull-right">
+							<div id="site-title-in">
+								<h1><img src="img/logo.png"><a href="#">TwitGreen</a></h1>
 							</div>
-						</form>
+						</div>
 					</div>
 				</div>
 				
@@ -73,8 +72,8 @@ Note: 'Nb cols' parameter for Bootstrap only.
 			<!-- on mobile -->
 			<div id="top-panes">
 				<div class="row hidden-desktop">
-					<div id="sobat-login" class="span6 center">
-						<div id="has-login" class="btn-group">
+					<div id="sobat-login" class="span6">
+						<div id="has-login" class="btn-group left">
 							<button class="btn btn-success">Sigit Sedayu</button>
 							<button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
 								<span class="caret"></span>
@@ -87,19 +86,27 @@ Note: 'Nb cols' parameter for Bootstrap only.
 								<li><a href="#"><i class="icon-off"></i> Logout</a></li>
 							</ul>
 						</div>
+						<div class="right"><img id="mini-logo" src="img/logo.png"></div>
 					</div>
 				</div>
 			</div>
 			<!-- /on mobile -->
 			
-			<div class="row">
-				<div class="span12">
-					<div id="logo">
-						<a href="#"><img src="img/logo-tabung-pohon-small.png"></a>
+			<div class="row" id="up-nav">
+				<div>
+					<div class="span6">
+						<div class="btn-group" data-toggle="buttons-checkbox">
+							<button type="button" class="btn btn-success"><i class="icon-fire"></i> Lot</button>
+							<button type="button" class="btn btn-primary"><i class="icon-user"></i> User</button>
+						</div>
 					</div>
-					<div id="site-title">
-						<h1><a href="#">TwitGreen</a></h1>
-						<p>One Billion Trees are still Counting 136.363.395 </p>
+					<div class="span6">
+						<form id="" class="form-search pull-right">
+							<div class="input-append">
+								<input type="text" class="span2 search-query">
+								<button type="submit" class="btn"><i class="icon-search"></i></button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
