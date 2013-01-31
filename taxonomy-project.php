@@ -51,6 +51,7 @@
 				include 'module/widget-featured-relawan.php';
 				include 'module/widget-filter-by-status.php';
 			?>
+		</div>
 	</div>
 </div>
 <?php
