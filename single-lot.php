@@ -40,7 +40,7 @@
 		
 		<div id="sidebar" class="span3">
 			<?php
-				include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsor
+				include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsorr
 				include 'module/widget-lot-statistic.php';
 				include 'module/widget-lot-document.php';
 			?>			
