@@ -1,6 +1,5 @@
 <?php
-	include 'module/header.php';
-	include 'module/infographic-global.php';
+	include 'module/header2.php';
 ?>
 	<div class="container">
 		<div class="row">
@@ -32,14 +31,14 @@
 								</div>
 							</div>
 						</div>
-						<?php include 'module/inforaphic-status.php'; ?>
+						<?php include 'module/infographic-status.php'; ?>
 					</div>
 					
 					<h2>DAFTAR PROJECT :</h2>
 					<ul id="new-projects" class="thumbnails">
 						<?php
 							$i = 0;
-							while ( $i <= 1) {
+							while ( $i <= 5) {
 								include 'module/content-project.php';
 								$i ++;
 							}
@@ -47,10 +46,10 @@
 					</ul>
 					
 					<h2>DAFTAR LOT :</h2>
-					<ul id="" class="thumbnails">
+					<ul id="new-projects" class="thumbnails">
 						<?php
 							$i = 0;
-							while ( $i <= 8) {
+							while ( $i <= 5) {
 								include 'module/content-lot.php';
 								$i ++;
 							}
