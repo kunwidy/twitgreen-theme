@@ -6,6 +6,7 @@
 							<h3>Sigit Sedayu</h3>
 						</div>
 						<div class="body">
+							<a href="edit-profile.php"><button class="btn btn-mini btn-warning pull-right" type="button"><i class="icon-user"></i> Edit</button></a>
 							<ul>
 							<li><a href="">Facebook Profile</a></li>
 							<li><a href="">Twitter Page</a></li>
@@ -19,6 +20,17 @@
 								<li>Jumlah Lot : 6 Lot</li>
 								<li>Jumlah Pohon : 340 Pohon</li>
 							</ul>
+							
+								<!-- if not yet making lot -->
+								<div class="alert alert-block alert-error fade in">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									Anda belum memiliki lot , mulai <a href="#"><strong>menjadi relawan</strong></a>.
+								</div>
+							
 						</div>
+						
+						
 					</div>
 					<!-- /user info -->
+					
+								
