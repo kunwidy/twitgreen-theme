@@ -23,8 +23,9 @@
 											</a>
 											<div class="media-body">
 												<h4 class="media-heading">Perubahan status lot</h4>
+												<a href="#"><span class="label label-warning pull-right">Edit</span></a>
 												<p>Status diubah dari Draft ke Offering, oleh Hari Krismis Tiyanto pada tanggal 28 January 2013 21:28 WIB</p>
-												<a href="#"><span class="label label-success right">Lihat semua</span></a> 
+												<a href="#"><span class="label label-success right">Beri Komentar</span></a> 
 											</div>
 											
 										</div>
@@ -37,8 +38,9 @@
 											</a>
 											<div class="media-body">
 												<h4 class="media-heading">Perubahan status lot</h4>
+												<a href="#"><span class="label label-warning pull-right">Edit</span></a>
 												<p>Status diubah dari Draft ke Offering, oleh Hari Krismis Tiyanto pada tanggal 28 January 2013 21:28 WIB</p>
-													<a href="#"><span class="label label-success right">Lihat semua</span></a>
+												<a href="#"><span class="label label-success right">Beri Komentar</span></a> 
 											</div>
 										</div>
 									</li>
@@ -50,8 +52,9 @@
 											</a>
 											<div class="media-body">
 												<h4 class="media-heading">Lot Baru</h4>
-												<p> <a href="#" class="pull-left"><img class="gal" src="upload/new-project.jpg"> </a>Hari Krismis Tiyanto menambahkan foto baru ke lot desa cinunuk1 pada tanggal 28 January 2013 21:28 WIB</p>
-												<a href="#"><span class="label label-success right">Lihat semua</span></a>
+												<a href="#"><span class="label label-warning pull-right">Edit</span></a>
+												<p> <a href="#" class="pull-left"><img class="gal" src="upload/new-project.jpg"></a>Hari Krismis Tiyanto menambahkan foto baru ke lot desa cinunuk1 pada tanggal 28 January 2013 21:28 WIB</p>
+												<a href="#"><span class="label label-success right">Beri Komentar</span></a>
 											</div>
 										</div>
 									</li>
