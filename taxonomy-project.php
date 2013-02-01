@@ -1,11 +1,11 @@
 <?php
-	include 'module/header.php';
+	include 'module/header2a.php';
 	include 'module/infographic-global.php';
 ?>
 <div class="container">
 	<div class="row">
 		<div id="big-content" class="span9">
-			<div id="featured-project">
+			<div class="featured-project">
 				<div id="text-featured">
 					<h1 class="large center">Menabung 100.000.000 Pohon Pertamina Sobat Bumi</h1>
 					<hr/>	

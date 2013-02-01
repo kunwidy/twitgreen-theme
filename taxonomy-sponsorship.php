@@ -5,7 +5,7 @@
 		<div class="row">
 				<div id="big-content" class="span9">
 		
-					<div id="featured-project">
+					<div class="featured-project">
 						<div id="text-featured">
 							<h1 class="large center">
 								<a href="#"><img src="upload/sponsorship.jpg" alt=""/></a>

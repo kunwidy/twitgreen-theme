@@ -21,13 +21,42 @@
    <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
-	 <script type="text/javascript" src="js/less-1.3.0.min.js"></script>
+    <script type="text/javascript" src="js/less-1.3.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="js/bootstrap-fileupload.js"></script>
 	 
 	 <script type="text/javascript">
-  $(document).ready(function () {
-    $("[rel=tooltip]").tooltip();
-  });
-  
+	
+		
+	$('.fileupload').fileupload();
+		
+	
+	$(document).ready(function () {
+	 $("[rel=tooltip]").tooltip();
+	 
+	 /*untuk menapilkan alert button*/
+	 $("#submit-profile").live("click",function(){
+			 $(".alert-message").show();
+			 $(".alert-message").alert();
+	                 window.setTimeout(function() { $(".alert-message").hide(); }, 3000);
+			
+			return false;
+		});
+	
+	$("#submit-biodata").live("click",function(){
+			 $(".alert-message").show();
+			 $(".alert-message").alert();
+	                 window.setTimeout(function() { $(".alert-message").hide(); }, 3000);
+			
+			return false;
+		});
+	 
+	 });
+	
+	/* $(".alert-message").alert();
+	window.setTimeout(function() { $(".alert-message").alert('close'); }, 5000);
+	*/
+	
 	jQuery(document).ready(function($) {
  
         $('#myCarousel').carousel({
@@ -53,6 +82,46 @@
  
  
 });
+	</script>
+	 
+	 <script>
+			$(function(){
+			window.prettyPrint && prettyPrint();
+			$('#dp1').datepicker({
+				format: 'mm-dd-yyyy'
+			});
+			$('#dp2').datepicker();
+			$('#dp3').datepicker();
+			$('#dp3').datepicker();
+			$('#dpYears').datepicker();
+			$('#dpMonths').datepicker();
+			
+			
+			var startDate = new Date(2012,1,20);
+			var endDate = new Date(2012,1,25);
+			$('#dp4').datepicker()
+				.on('changeDate', function(ev){
+					if (ev.date.valueOf() > endDate.valueOf()){
+						$('#alert').show().find('strong').text('The start date can not be greater then the end date');
+					} else {
+						$('#alert').hide();
+						startDate = new Date(ev.date);
+						$('#startDate').text($('#dp4').data('date'));
+					}
+					$('#dp4').datepicker('hide');
+				});
+			$('#dp5').datepicker()
+				.on('changeDate', function(ev){
+					if (ev.date.valueOf() < startDate.valueOf()){
+						$('#alert').show().find('strong').text('The end date can not be less then the start date');
+					} else {
+						$('#alert').hide();
+						endDate = new Date(ev.date);
+						$('#endDate').text($('#dp5').data('date'));
+					}
+					$('#dp5').datepicker('hide');
+				});
+		});
 	</script>
 
 

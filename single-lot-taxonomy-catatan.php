@@ -1,7 +1,7 @@
 <!-- header -->
-<?php include 'module/header.php'; ?>
+<?php include 'module/header2.php'; ?>
 
-	<?php include 'module/infographic-global.php'; ?>
+
 	
 	<!-- middle content -->
 	<div class="container">
@@ -10,7 +10,7 @@
 				<!-- big content -->
 				<div id="big-content" class="span9">
 					
-					<div id="featured-project">
+					<div class="featured-project">
 							<div id="text-featured">
 								<h1 class="large center">
 									<a href="#">Neglasari 48</a>
@@ -49,17 +49,25 @@
 								
 							
 						</div>
+						
+		
+				
 					</div>
+					
+					
 					
 				</div>
 				<!-- /big content -->
 				
 				<!-- sidebar content -->
-				<div id="sidebar" class="span3">
-					<?php include 'module/side-info-lot.php'; ?>
-					
-				</div>
-				<!-- sidebar content -->
+						<div id="sidebar" class="span3">
+			<?php
+				include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsor
+				include 'module/widget-lot-statistic.php';
+				include 'module/widget-lot-document.php';
+			?>			
+		</div>
+						<!-- sidebar content -->
 		</div>
 	</div>
 	

@@ -1,9 +1,11 @@
 <?php
-	include 'module/header.php';
+	include 'module/header2a.php';
 	include 'module/infographic-global.php';
 	include 'module/featured-project.php';
 ?>
+
 	<div class="container">
+		
 		<div class="new-project">
 			<h5>PROJECT :</h5>
 			<ul id="new-projects" class="thumbnails">
@@ -33,12 +35,12 @@
 					<br/>
 					<div class="row">
 						<div class="span3 center">
-							<a href="#"><img src="img/lot-icon2.png" alt="lot"></a>
-							<h5 id="low-title"><a href="#">Lot</a></h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam [...] </p>
+							<a href="single-lot.php"><img src="img/lot-icon2.png" alt="lot"></a>
+							<h5 id="low-title"><a href="single-lot.php">Lot</a></h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp							or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam [...] </p>
 						</div>
 						<div class="span3 center">
-							<a href="#"><img src="img/project-icon2.png" alt="lot"></a>
+							<a href="taxonomy-project.php"><img src="img/project-icon2.png" alt="lot"></a>
 							<h5 id="low-title"><a href="#">Project</a></h5>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam [...] </p>
 						</div>
@@ -54,7 +56,10 @@
 				</div>
 			</div>
 		</div>
+		
+		
 	</div>
+
 <?php
 	include 'module/search-mobile.php';
 	include 'module/footer.php';

@@ -4,8 +4,9 @@
 ?>
 	<div class="container">
 		<div class="row">
+			
 			<div class="span12">
-			<h2>DAFTAR LOT :</h2>
+			<h2>DAFTAR TREE YANG DIDUKUNG :</h2>
 			</div>
 			
 			<div id="big-content" class="span9">
@@ -14,7 +15,7 @@
 					<?php
 						$i = 0;
 						while ( $i <= 8) {
-							include 'module/content-lot.php';
+							include 'module/content-lot-as-user.php';
 							$i ++;
 						}
 					?>
@@ -23,11 +24,23 @@
 			</div>
 			<div id="sidebar" class="span3">
 				<?php
-					// include 'module/widget-sponsor-banner.php';
-					include 'module/widget-list-project.php'; // jadi list project
-					include 'module/widget-featured-relawan.php';
-					include 'module/widget-filter-by-status.php';
+					include 'module/widget-sponsor-banner.php';
 				?>
+				<!-- stats content -->
+					<div id="project-stats" class="side-content">
+						<ul id="data-lot">
+							<h1>356 lot</h1>
+							<li>2.300.000 pohon</li>
+							<li>976 hektar</li>
+							<li>500 Petani</li>
+							<li><a href="archive-lot-map-view.php">Lihat Peta</a></li>
+						</ul>
+					</div>
+					<!-- /stats content -->
+				<?php
+				include 'module/widget-filter-by-status.php';
+				?>
+				
 			</div>
 		</div>
 	</div>

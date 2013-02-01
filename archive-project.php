@@ -5,7 +5,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-			<h2>DAFTAR LOT :</h2>
+			<h2>DAFTAR PROJECT :</h2>
 			</div>
 			
 			<div id="big-content" class="span9">
@@ -14,7 +14,7 @@
 					<?php
 						$i = 0;
 						while ( $i <= 8) {
-							include 'module/content-lot.php';
+							include 'module/content-project.php';
 							$i ++;
 						}
 					?>

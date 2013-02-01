@@ -86,7 +86,7 @@ Note: 'Nb cols' parameter for Bootstrap only.
 								<li><a href="#"><i class="icon-off"></i> Logout</a></li>
 							</ul>
 						</div>
-						<div class="right"><img id="mini-logo" src="img/logo.png"></div>
+						<div class="pull-right"><img id="mini-logo" src="img/logo.png"></div>
 					</div>
 				</div>
 			</div>

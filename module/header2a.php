@@ -52,27 +52,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="index.php"><div id="logotype"></div></a>
+          
+				<div id="sobat-login" class="span5">
+					<p><a id="sobatbumi-connect" href="#"><img src="img/sobatbumi-logo.png" alt=""> login dengan sobatbumi</a></p>
+				</div>
+	
           <div class="nav-collapse collapse inverse">
-            <ul class="nav">
-              <li><a href="archive-user.php" class="topnav"><img src="img/user.png"> User</a></li>
-			  <li><a href="archive-project.php" class="topnav"><img src="img/project.png"> Project</a></li>
-              <li><a href="archive-lot.php" class="topnav"><img src="img/alot.png"> Lot</a></li>
-            </ul>
-			
-						<div class="btn-group inside pull-right">
-							
-							<button class="btn dropdown-toggle user-in" data-toggle="dropdown">
-								<img class="top-user-profile" src="upload/relawan.jpg" alt="">
-							</button>
-							<ul class="dropdown-menu">
-								<!-- dropdown menu links -->
-								<li><a href="#"><i class="icon-cog"></i> Preferences</a></li>
-								<li><a href="#"><i class="icon-envelope"></i> Akunku</a></li>
-								<li class="divider"></li>
-								<li><a href="#"><i class="icon-off"></i> Logout</a></li>
-							</ul>
-						</div>
 						
 			<div class="input-append">
 				<form class="navbar-form pull-right">
@@ -95,10 +80,24 @@
 				
 				</form>
 			</div>
-			
-						
-			
+
           </div><!--/.nav-collapse -->
+		  
         </div>
       </div>
     </div>
+	
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+					<div id="logo">
+						<a href="#"><img src="img/logo-tabung-pohon-small.png"></a>
+					</div>
+					<div id="site-title">
+						<h1><a href="index.php">TwitGreen</a></h1>
+						<p>One Billion Trees are still Counting 136.363.395 </p>
+					</div>
+					</div>
+				</div>
+			</div>
+	
