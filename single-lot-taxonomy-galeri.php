@@ -1,7 +1,6 @@
 <!-- header -->
-<?php include 'module/header.php'; ?>
+<?php include 'module/header2.php'; ?>
 
-	<?php include 'module/infographic-global.php'; ?>
 	
 	<!-- middle content -->
 	<div class="container">
@@ -56,9 +55,12 @@
 				
 				<!-- sidebar content -->
 				<div id="sidebar" class="span3">
-					<?php include 'module/side-info-lot.php'; ?>
-					
-				</div>
+			<?php
+				include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsor
+				include 'module/widget-lot-statistic.php';
+				include 'module/widget-lot-document.php';
+			?>			
+		</div>
 				<!-- sidebar content -->
 		</div>
 	</div>

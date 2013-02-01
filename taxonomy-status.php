@@ -1,11 +1,14 @@
 <?php
-	include 'module/header.php';
-	include 'module/infographic-global.php';
+	include 'module/header2.php';
+	
 ?>
 	<div class="container">
 		<div class="row">
+			<div class="span12">
+			<h2>DAFTAR LOT DRAFT :</h2>
+			</div>
 			<div id="big-content" class="span9">
-				<h2>DAFTAR LOT DRAFT :</h2>
+				
 				<ul id="new-projects" class="thumbnails">
 					<?php
 						$i = 0;

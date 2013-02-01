@@ -8,7 +8,7 @@
 			<div class="featured-project">
 				<div id="text-featured">
 					<h1 class="large center">
-						<a href="#">Neglasari 48</a>
+						<a href="#">NGAMPRAH 2</a>
 					</h1>
 				</div>
 				<div class="row">
@@ -43,11 +43,7 @@
 		
 		<div id="sidebar" class="span3">
 			<?php
-<<<<<<< HEAD
-				include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsorr
-=======
-				//include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsor
->>>>>>> 287e960e76ab57ec565045f890f7f0513e663193
+				include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsor
 				include 'module/widget-lot-statistic.php';
 				include 'module/widget-lot-document.php';
 			?>			
