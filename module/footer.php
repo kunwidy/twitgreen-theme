@@ -24,6 +24,15 @@
     <script type="text/javascript" src="js/less-1.3.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
     <script type="text/javascript" src="js/bootstrap-fileupload.js"></script>
+    <script type="text/javascript" src="js/jquery.bootstrap.wizard.js"></script>
+    
+    
+   	 <script>
+	$(document).ready(function() {
+	  	$('#rootwizard').bootstrapWizard({'tabClass': 'nav nav-tabs'});	
+		window.prettyPrint && prettyPrint()
+	});	
+	</script>
 	 
 	 <script type="text/javascript">
 	
