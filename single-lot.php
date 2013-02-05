@@ -43,11 +43,8 @@
 		
 		<div id="sidebar" class="span3">
 			<?php
-<<<<<<< HEAD
+
 				include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsorr
-=======
-				//include 'module/widget-sponsor-banner.php'; // kalo udah ada sponsor
->>>>>>> 287e960e76ab57ec565045f890f7f0513e663193
 				include 'module/widget-lot-statistic.php';
 				include 'module/widget-lot-document.php';
 			?>			

@@ -1,7 +1,7 @@
 				<div id="project-stats" class="side-content">
 					<ul id="data-lot">
 						<h4 id="sidebar-title">Informasi Lot</h4>
-						<li class="pull-right"><a href="archive-lot-map-view.php"><span class="label label-success">pohon</span></a></li>
+						<li class="pull-right"><a href="single-lot-map-view.php"><span class="label label-success">pohon</span></a></li>
 						<li><span class="img-personal"><img src="upload/relawan.jpg" alt="name"></span><span class="text-personal"><b>Relawan</b> <br/> <a href="#">Solehudin</a></span></li>
 						<li><span class="img-personal"><img src="upload/relawan.jpg" alt="name"></span><span class="text-personal"><b>Pemilik Lahan</b> <br/> <a href="#">Kosasih</a></span></li>
 						<li><span class="img-personal"><img src="upload/relawan.jpg" alt="name"></span><span class="text-personal"><b>Petani</b> <br/> <a href="#">Emod</a></span></li>

@@ -3,8 +3,7 @@
 ?>
 	<div class="container">
 		<div class="row">
-			
-			<?php include 'form/form-profile.php'?>
+			<?php include 'form/form-profile.php' ?>
 		</div>
 	</div>
 	
