@@ -2,17 +2,9 @@
 <!--form profile user-->
     
             <div class="span9">
-		
-                <div class="accordion" id="accordion2">
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                              <h4>Public Profile</h4>
-                             </a>
-                        </div>
-                        <div id="collapseOne" class="accordion-body collapse" style="height: 0px; ">
-                            <div class="accordion-inner">
-                                
+
+                            <div class="">
+                                <h4>Public Profile</h4>
                                 <form class="form-horizontal well">
                                     
                                     <div class="control-group">
@@ -45,17 +37,13 @@
                                 </div>
                                                                
                             </div>
-                        </div>
-                     </div>
+                      
                     
-                    <div class="accordion-group">
-                         <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                             <h4>Biodata</h4>
-                            </a>
-                         </div>
-                        <div id="collapseTwo" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                 
+                         
+                       
+                            <div>
+								<h4>Biodata</h4>
                                 <form class="form-horizontal well">
                                     
                                     <div class="control-group">
@@ -114,17 +102,11 @@
                                     <strong>Success!</strong> Data berhasil disimpan.
                                     </div>
                             </div>
-                        </div>
-                    </div>
+                        
                     
-                    <div class="accordion-group">
-                        <div class="accordion-heading">
-                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
-                                <h4>Private Profile</h4>
-                            </a>
-                        </div>
-                        <div id="collapseThree" class="accordion-body collapse">
-                            <div class="accordion-inner">
+                  
+                            <div class="">
+								 <h4>Private Profile</h4>
                                 <form class="form-horizontal well">
                                     
                                     <div class="control-group">
@@ -213,11 +195,9 @@
                                     <strong>Success!</strong> Data berhasil disimpan.
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        
     
-	    </div>
+			</div>
             
             <div class="span3">
                 <div id="profil-foto">
