@@ -161,3 +161,8 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+
+#sublime 2 environment
+twitgreen-dev.sublime-project
+twitgreen-dev.sublime-workspace
