@@ -6,11 +6,7 @@
 							<h3>Sigit Sedayu</h3>
 						</div>
 						<div class="body">
-<<<<<<< HEAD
-							<a href="edit-profile.php"><button class="btn btn-mini btn-warning pull-right" type="button"><i class="icon-user"></i> Edit</button></a>
-=======
 							<a href="page-edit-profile.php"><button class="btn btn-mini btn-warning pull-right" type="button"><i class="icon-user"></i> Edit</button></a>
->>>>>>> 287e960e76ab57ec565045f890f7f0513e663193
 							<ul>
 							<li><a href="">Facebook Profile</a></li>
 							<li><a href="">Twitter Page</a></li>
@@ -28,11 +24,13 @@
 								<!-- if not yet making lot -->
 								<div class="alert alert-block alert-error fade in">
 									<button type="button" class="close" data-dismiss="alert">&times;</button>
-<<<<<<< HEAD
-									Anda belum memiliki lot , mulai <a href="#"><strong>menjadi relawan</strong></a>.
-=======
 									Anda belum memiliki lot , mulai <a href="page-relawan-registration.php"><strong>menjadi relawan</strong></a>.
->>>>>>> 287e960e76ab57ec565045f890f7f0513e663193
+								</div>
+								
+								<!-- if have a requirement -->
+								<div class="alert alert-block alert-warning fade in">
+									<button type="button" class="close" data-dismiss="alert">&times;</button>
+									<a href="#">Aceng fikri</a> mengajukan penawaran lot,  <a href="page-relawan-registration.php"> <strong>lihat transaksi</strong></a>.
 								</div>
 							
 						</div>
@@ -41,8 +39,4 @@
 					</div>
 					<!-- /user info -->
 					
-<<<<<<< HEAD
 								
-=======
-								
->>>>>>> 287e960e76ab57ec565045f890f7f0513e663193
